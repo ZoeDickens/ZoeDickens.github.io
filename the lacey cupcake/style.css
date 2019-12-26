@@ -1,0 +1,54 @@
+body{
+  font-family: fantasy;
+  font-size: 15px;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+  background-color: #E6E6FA;
+  text-align: center;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header{
+  background-color: #F0FFF0;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #D1A132 3px solid;
+}
+header a{
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px
+
+}
+
+
+header ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F0FFF0;
+}
+
+header li{
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: #E6E6FA;
+  color: black;
+}

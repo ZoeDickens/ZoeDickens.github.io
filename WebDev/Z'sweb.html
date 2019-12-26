@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 40px;
+    background-image: url("space.png");
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-image: url("space.png");
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: center;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: center;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Zasra's Comics and Coffee</h1>
+  <p>welcome humans!</p>
+</div>
+
+<div class="topnav">
+  <a href="secondpage.html">Comics!</a>
+  <a href="cats.html">Cats</a>
+  <a href="starwars.html">StarWars</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>About me</h2>
+      <h5>This is all about me!</h5>
+      <p>where to start...</p>
+      <p>My name is Zasra Scoyfol and i am a young Zerkleth learning my way through this thing called life. I am a <em> MASSIVE</em>
+       human geek i love anything X-men,
+       Star Wars, Marvel, or games. Some of my other hobbies are gaming reading comics and talking with these things called humans.
+       I am what you call a Female or girl and i am 16 earth years old. i go to this thingh called HighSchool to learn a bout earth.</p>
+    </div>
+    <div class="card">
+      <h2>My planet</h2>
+      <h5>my planet</h5>
+      <p>my planet is in the far away in cosmos of exstrath. it was a wonderfull place to live i loved it there.
+        the reson why i came to earth is because i wanted to exsplore and i hapened to stumble acrost this planet and i have decided to stay for a little bit!</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About My species</h2>
+
+      <p>we are a fun love race with lots of abilities like what you call shape shifting!.</p>
+    </div>
+
+</body>
+</html>
