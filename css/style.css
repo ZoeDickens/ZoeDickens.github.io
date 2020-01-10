@@ -46,6 +46,7 @@ header a{
 }
 
 header li{
+  text-shadow: 0 0 8px white;
   float: left;
   display: inline;
   padding: 0 20px 0 20px;
@@ -57,6 +58,7 @@ header #branding{
 }
 
 header #branding h1{
+  text-shadow: 0 0 8px white;
   margin: 0;
 }
 header nav{
@@ -65,7 +67,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-  text-shadow: 0 0 4px  black;
+  text-shadow: 0 0 4px black;
   color: #1ED7DA;
   font-weight: bold;
 }
