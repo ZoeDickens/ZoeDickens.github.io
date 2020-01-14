@@ -1,2 +1,2 @@
 # ZoeDickens.github.io
-Hello my first blog!
+Hello my first Website!
